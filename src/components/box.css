@@ -1,0 +1,18 @@
+.box {
+}
+.box .icon svg {
+  color: #d06588;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.box .icon {
+  display: flex;
+  /* justify-content: space-between; */
+
+  width: 100%;
+  align-items: center;
+}
+.name {
+  max-width: 240px;
+  margin-right: 70px;
+}
