@@ -11,15 +11,8 @@ import TextField from '@mui/material/TextField';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
-import { compareAsc, format } from 'date-fns';
-import {
-  getDatabase,
-  ref,
-  onValue,
-  set,
-  update,
-  push,
-} from 'firebase/database';
+
+import { getDatabase, ref, onValue, set, push } from 'firebase/database';
 import { useLocation } from 'react-router-dom';
 import Loader from '../components/Loader';
 const myDate = new Date();
