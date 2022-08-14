@@ -92,7 +92,7 @@ const Home = () => {
       console.log(data);
       setUserData(data);
     });
-  }, []);
+  }, [db, userId]);
   useEffect(() => {
     setIsLoading(true);
     const starCountRef = ref(db, 'items/' + userId);
@@ -113,7 +113,7 @@ const Home = () => {
       setItem(arr2);
       setIsLoading(false);
     });
-  }, []);
+  }, [db, userId]);
 
   console.log(userData);
   console.log(item);
