@@ -25,7 +25,7 @@ const Dustbin = () => {
   const isActive = canDrop && isOver;
   let backgroundColor = '#222';
   if (isActive) {
-    backgroundColor = 'darkgreen';
+    backgroundColor = 'white';
   } else if (canDrop) {
     backgroundColor = 'darkkhaki';
   }
